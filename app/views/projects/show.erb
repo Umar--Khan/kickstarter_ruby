@@ -1,0 +1,7 @@
+<h1><%= @project.name %></h1>
+<h4><%= @project.amount_needed %></h4>
+<h4><%= @project.amount_raised %></h4>
+<p><%= @project.bio %></p>
+<%= link_to 'Delete', project_path(@project), method: :delete %> 
+
+
